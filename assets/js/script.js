@@ -1,3 +1,13 @@
+var playerTotalScore = 0;
+var computerTotalScore = 0;
+var numberOfGoes = 10;
+
+// game-button
+function throwdice() { 
+    // Score
+    const playerScore = document.getElementById('score-Player');
+    const computerScore = document.getElementById('score-Computer');
+
 // generate a random number from 1 to 6
 const firstRandomNum = Math.floor(Math.random() * 6) + 1
 
@@ -15,6 +25,18 @@ const secondDiceImage = 'assets/images/dice' + secondRandomNum + '.png';
 
 document.querySelectorAll('img')[1].setAttribute('src', secondDiceImage)
 
+// find out who won the roll using firstRandomNum and secondRandomNum
+if (firstRandomNum > secondRandomNum) {
+    // if firstRandomNum won then increment the gamer score
+    playerTotalScore ++;
+    playerScore.innerText = playerTotalScore.toString();
+  }
+  if (secondRandomNum > firstRandomNum) {
+    // if secondRandomNum won then increment the machine score
+    computerTotalScore ++;
+    computerScore.innerText = computerTotalScore.toString();
+  }
+
 
 // LOgic for winner
 if (firstRandomNum > secondRandomNum){
@@ -24,3 +46,5 @@ if (firstRandomNum > secondRandomNum){
     } else {
         document.querySelector ('h1').innerHTML = "It's a Draw!";
     }
+
+}

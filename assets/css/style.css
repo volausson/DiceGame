@@ -5,6 +5,7 @@ body {
     background:
     linear-gradient(to right, #16d7cb, #ffa140);
     text-align: center;
+    margin: auto;
 }
 
 .wrapper {
@@ -13,23 +14,36 @@ body {
     text-align: center;
 }
 
+.btn {
+    font-family: 'Press Start 2P', cursive;
+    padding: 2rem 2rem;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid black;
+}
+
 h1 {
-    margin: 20px;
-    font-size: 6rem;
+    font-size: 2.5rem;
+    text-align: center;
     color: snow;
 }
 
 .dice-area {
     margin: 0px 50px;
     text-align: center;
-    display: inline-block;
 }
 
 p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: snow;
 }
 
 img {
-    width: 320px;
+    width: 200px;
+    margin-bottom: 2rem;
+}
+
+.scores {
+    text-align: center;
+    display: inline-block; 
 }
