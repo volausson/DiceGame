@@ -4,7 +4,7 @@
 
 ### Users of this game will find the Dice Game useful when they need to wind down for a while or give their children a simple start with math. the game is meant to target both adult users and children and is very simple to use.
 
-![This is an image](assets/images/multidevice.png)
+![This is an image](assets/images/Multi%20Device%20Mockup%20Generator%20-%20techsini.com.png)
 
 ## **Features**
 
@@ -32,11 +32,11 @@
 ### - I have confirmed that colors an choosen font is easy to read.
 ## **Validator testing**
 ### I have confirmed the games accessibility by running the game through lighthouse in devtools.
-![This is an image](assets/images/lighthouse.png)
+![This is an image](assets/images/FireShot%20Capture%20013%20-%20Lighthouse%20Report%20Viewer%20-%20googlechrome.github.io.png)
 ### When run through the official W3C Validator it shows the h1 element as an empty heading wich could be because the heading changes constantly due to the code in javascript.
-![this is an image](assets/images/htmlchecker.png)
+![this is an image](assets/images/FireShot%20Capture%20010%20-%20Showing%20results%20for%20https___volausson.github.io_DiceGame_%20-%20Nu%20Html%20C_%20-%20validator.w3.org.png)
 ### No errors was shown in the W3C css Validator.
-![this is an image](assets/images/csschecker.png)
+![this is an image](assets/images/FireShot%20Capture%20011%20-%20W3C%20CSS-valideringsresultat%20f%C3%B6r%20https___volausson.github.io_DiceGame__%20-%20jigsaw.w3.org.png)
 
 ## **Deployment**
 ### The site was deployed to GitHub pages. The steps to deploy are as follows:
