@@ -47,3 +47,12 @@ img {
     text-align: center;
     display: inline-block; 
 }
+@media (max-width: 320px) {
+ .dice-area {
+        margin: 10px auto;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}

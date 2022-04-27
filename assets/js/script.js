@@ -1,6 +1,6 @@
+
 var playerTotalScore = 0;
 var computerTotalScore = 0;
-var numberOfGoes = 10;
 
 // game-button
 function throwdice() { 
@@ -45,6 +45,5 @@ if (firstRandomNum > secondRandomNum){
         document.querySelector ('h1').innerHTML = 'Player Lose!';  
     } else {
         document.querySelector ('h1').innerHTML = "It's a Draw!";
-    }
-
+    }    
 }
