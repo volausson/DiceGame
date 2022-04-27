@@ -50,7 +50,7 @@
 ### **Content**
 ### - The code for the game was inspired by tutorial I found on YouTube
 ### wich can be found here -https://youtu.be/B17NC5DD-dA
-### I have also recieved a lot of help and tips from my tutor at Code Institue, for wich I am super greatful.
+### I have also recieved a lot of helpfull tips from my tutor at Code Institue, for wich I am super greatful.
 ### **Media**
 ### - The font that was used for the page comes from
 ### -https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap
