@@ -54,5 +54,6 @@
 ### **Media**
 ### - The font that was used for the page comes from
 ### -https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap
+### - The images used was downloaded from -https://www.pngitem.com/middle/hmRmxTJ_6-dice-number-clipart-picture-black-and-white/ and cut to size for the game.
 
 
