@@ -51,7 +51,14 @@ img {
  .dice-area {
         margin: 10px auto;
     }
-    
+    p {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 100px;
+    }
+
     h1 {
         font-size: 2rem;
     }
